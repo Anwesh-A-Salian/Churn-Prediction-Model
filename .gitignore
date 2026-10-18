@@ -1,0 +1,40 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Downloaded datasets
+data/*
+!data/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated model files
+*.pkl
+*.joblib
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
